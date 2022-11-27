@@ -105,7 +105,7 @@ def Mediana_b():
     #Проверяем треугольник на существование
     test(a, c, b)
     
-     #Создаём строку с ответом
+    #Создаём строку с ответом
     answer = "Ответ: "
     text = f"{answer} {round(mediana(a, c, b), 2)}"
     fresult.configure(text=text)
@@ -129,7 +129,7 @@ def Mediana_c():
     #Проверяем треугольник на существование
     test(a, b, c)
     
-     #Создаём строку с ответом
+    #Создаём строку с ответом
     answer = "Ответ: "
     text = f"{answer} {round(mediana(a, b, c), 2)}"
     #Выводим её в поле для вывода
