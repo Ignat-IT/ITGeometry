@@ -1,7 +1,5 @@
 from IgFunc import *
 from tkinter import *
-from tkinter import messagebox as mb
-import sys
 import turtle as t
 #Окно и фрейм
 window = Tk() #Создаём окно
