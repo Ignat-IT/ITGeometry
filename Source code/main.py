@@ -4,7 +4,7 @@ import turtle as t
 #Окно и фрейм
 window = Tk() #Создаём окно
 window.config(bg = "gray16") #Увет фона окна
-window.title("ITGeometry") #Название окна
+window.title("IT Geometry") #Название окна
 window.geometry("720x440") #Указываем размеры
 window.resizable(width=False, height=False) #Отключаем возможность изменения размеров окна
 mainw = Frame(window, bg = "gray64") #Создаём фрейм для вывода элементов
@@ -42,7 +42,7 @@ def Grafik():
 
     t.bgcolor("Gray16") #Цвет фона
     t.color("White") #Цвет линиЙ
-    t.hideturtle() #Убираем черепашку
+    t.hideturtle() #Убирает черепашку
     t.speed(0) #Убираем анимацию рисования
 
     #Центровка треугольника
@@ -103,7 +103,7 @@ def Mediana_b():
     #Проверяем треугольник на существование
     test(a, c, b)
     
-    #Создаём строку с ответом
+     #Создаём строку с ответом
     answer = "Ответ: "
     text = f"{answer} {round(mediana(a, c, b), 2)}"
     fresult.configure(text=text)
@@ -127,7 +127,7 @@ def Mediana_c():
     #Проверяем треугольник на существование
     test(a, b, c)
     
-    #Создаём строку с ответом
+     #Создаём строку с ответом
     answer = "Ответ: "
     text = f"{answer} {round(mediana(a, b, c), 2)}"
     #Выводим её в поле для вывода
@@ -198,7 +198,7 @@ def Bissectr_c():
     #Проверяем треугольник на существование
     test(a, b, c)
 
-    #Создаём строку с ответом
+    #Создаём строку с ответом`
     answer = "Ответ: "
     text = f"{answer} {round(biss(a, b, c), 2)}"
     #Выводим её в поле для вывода
